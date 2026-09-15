@@ -118,3 +118,22 @@ A 3-day authorized black-box penetration test was performed against `https://med
 ---
 
 ## 🛡️ Remediation & Action Plan
+[Critical Priority] ----> Implement Server-Side Access Control & Fix Input Handling 
+
+[High Priority]     ----> Upgrade PDF Encryption to AES-256 & Enforce Strong Passphrases
+
+[Medium Priority]   ----> Strip File Metadata & Audit Public Server Repositories
+
+
+| Vulnerability | Remediation Action |
+| :--- | :--- |
+| **Authentication Bypass** | Enforce strict server-side authentication checks, rate limiting, and parameterized input validation. |
+| **File Encryption** | Enforce strong encryption algorithms (AES-256) and mandatory complex passphrases for sensitive patient records. |
+| **Data Exposure** | Sanitize document metadata before publishing and restrict directory listing/unauthorized directory access on internal servers. |
+
+---
+
+## ⚖️ Legal & Ethical Disclaimer
+*This repository and its contents are strictly for educational and defensive cybersecurity research purposes. All testing activities were executed under written permission within an authorized environment provided by Networkwalks for Mediroza General Hospital. Unauthorized testing against external infrastructure is strictly illegal.*
+
+
